@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PAC_Man_Game_WPF_MOO_ICT"
         mc:Ignorable="d"
-        Title="PAC Man Game WPF MOO ICT" Height="600" Width="800">
+        Title="PAC Man Game WPF MOO ICT" Height="1080" Width="1920">
     <Canvas Name="MyCanvas" KeyDown="CanvasKeyDown" Focusable="True" Background="Black">
 
 
@@ -112,8 +112,142 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="318" Canvas.Top="510" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="350" Canvas.Top="544" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="350" Canvas.Top="510" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="578" Canvas.Left="142" Canvas.Top="623" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle x:Name="redGuy_Копировать" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="892" Canvas.Top="29" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle x:Name="orangeGuy_Копировать" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="1370" Canvas.Top="104" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle x:Name="pinkGuy_Копировать" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="892" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="578" Canvas.Left="861" Canvas.Top="69" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="402" Canvas.Left="950" Canvas.Top="159" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="861" Canvas.Top="339" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="861" Canvas.Top="467" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="1315" Canvas.Top="467" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="1315" Canvas.Top="339" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="187" Width="20" Canvas.Left="861" Canvas.Top="155" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="187" Width="20" Canvas.Left="1419" Canvas.Top="155" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="109" Width="20" Canvas.Left="1332" Canvas.Top="178" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="109" Width="20" Canvas.Left="950" Canvas.Top="178" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="861" Canvas.Top="485" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="1419" Canvas.Top="485" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="76" Canvas.Left="1114" Canvas.Top="487" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="923" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="879" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="997" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="960" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1097" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1044" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1201" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1140" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="985" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="985" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1017" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1017" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1044" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1044" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1076" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1076" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1102" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1102" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1129" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1129" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1156" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1156" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1188" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1188" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1216" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1216" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1248" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1248" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1275" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1275" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1307" Canvas.Top="248" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1307" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="906" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="862" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="980" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="943" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1080" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1027" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1184" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1123" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1276" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1239" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1376" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1323" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1419" Canvas.Top="49" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1249" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1353" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1293" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="906" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="862" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="980" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="943" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1080" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1027" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1184" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1123" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1276" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1239" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1376" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1323" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1419" Canvas.Top="404" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1223" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1223" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1250" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1250" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1282" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1282" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1311" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1311" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1338" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1338" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1370" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1370" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="923" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="923" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="949" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="949" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="981" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="981" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1011" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1011" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1037" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1037" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1069" Canvas.Top="544" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="1069" Canvas.Top="510" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="578" Canvas.Left="861" Canvas.Top="621" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="1296" Canvas.Left="142" Canvas.Top="988" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="861" Canvas.Top="695" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="965" Canvas.Top="713" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="594" Canvas.Top="695" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="594" Canvas.Top="713" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="148" Width="20" Canvas.Left="861" Canvas.Top="774" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="152" Width="20" Canvas.Left="700" Canvas.Top="774" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="1298" Canvas.Top="695" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="1298" Canvas.Top="713" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="152" Width="20" Canvas.Left="1404" Canvas.Top="774" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="148" Canvas.Top="695" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="252" Canvas.Top="713" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="148" Width="20" Canvas.Left="148" Canvas.Top="774" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="76" Canvas.Left="1117" Canvas.Top="705" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="76" Canvas.Left="395" Canvas.Top="705" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="76" Canvas.Left="1117" Canvas.Top="850" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="76" Canvas.Left="395" Canvas.Top="844" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="110" Canvas.Left="1542" Canvas.Top="158" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="183" Width="20" Canvas.Left="1542" Canvas.Top="176" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="110" Canvas.Left="1754" Canvas.Top="344" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="187" Width="20" Canvas.Left="1844" Canvas.Top="160" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="77" Width="68" Canvas.Left="1669" Canvas.Top="224" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="322" Canvas.Left="1542" Canvas.Top="467" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="322" Canvas.Left="1542" Canvas.Top="70" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="110" Canvas.Left="1542" Canvas.Top="892" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="183" Width="20" Canvas.Left="1542" Canvas.Top="712" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="110" Canvas.Left="1754" Canvas.Top="710" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="187" Width="20" Canvas.Left="1844" Canvas.Top="729" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="77" Width="68" Canvas.Left="1683" Canvas.Top="777" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="322" Canvas.Left="1542" Canvas.Top="990" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="322" Canvas.Left="1542" Canvas.Top="622" HorizontalAlignment="Center" VerticalAlignment="Top" />
 
-        
-        
+
+
     </Canvas>
 </Window>
