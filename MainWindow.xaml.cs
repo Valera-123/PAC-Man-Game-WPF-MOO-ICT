@@ -29,7 +29,7 @@ namespace PAC_Man_Game_WPF_MOO_ICT
         int speed = 8; // player speed
         Rect pacmanHitBox; // player hit box, this will be used to check for collision between player to walls, ghost and coints
         int ghostSpeed = 10; // ghost image speed
-        int ghostMoveStep = 160; // ghost step limits
+        int ghostMoveStep = 500; // ghost step limits
         int currentGhostStep; // current movement limit for the ghosts
         int score = 0; // score keeping integer
         public MainWindow()
@@ -85,15 +85,27 @@ namespace PAC_Man_Game_WPF_MOO_ICT
             ImageBrush pacmanImage = new ImageBrush();
             pacmanImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/pacman.jpg"));
             pacman.Fill = pacmanImage;
-            ImageBrush redGhost = new ImageBrush();
-            redGhost.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/red.jpg"));
-            redGuy.Fill = redGhost;
+            ImageBrush redGhost11 = new ImageBrush();
+            redGhost11.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/red.jpg"));
+            redGuy11.Fill = redGhost11;
             ImageBrush orangeGhost = new ImageBrush();
             orangeGhost.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/orange.jpg"));
-            orangeGuy.Fill = orangeGhost;
+            orangeGuy11.Fill = orangeGhost;
             ImageBrush pinkGhost = new ImageBrush();
             pinkGhost.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/pink.jpg"));
-            pinkGuy.Fill = pinkGhost;
+            pinkGuy11.Fill = pinkGhost;
+            ImageBrush redGhost22 = new ImageBrush();
+            redGhost22.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/red.jpg"));
+            redGuy22.Fill = redGhost22;
+            ImageBrush orangeGhost22 = new ImageBrush();
+            orangeGhost.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/orange.jpg"));
+            orangeGuy22.Fill = orangeGhost;
+            ImageBrush pinkGhost22 = new ImageBrush();
+            pinkGhost.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/pink.jpg"));
+            pinkGuy22.Fill = pinkGhost;
+            ImageBrush orangeGhost33 = new ImageBrush();
+            orangeGhost33.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/red.jpg"));
+
         }
         private void GameLoop(object sender, EventArgs e)
         {
@@ -203,7 +215,7 @@ namespace PAC_Man_Game_WPF_MOO_ICT
                     if (pacmanHitBox.IntersectsWith(hitBox))
                     {
                         // if collision has happened, then end the game by calling the game over function and passing in the message
-                        GameOver("Ghosts got you, click ok to play again");
+                        GameOver($"БЛИН,к сожалению призрак тебя догнал, ты собрал всего {score} монеток"); 
                     }
                     // if there is a rectangle called orange guy in the game
                     if (x.Name.ToString() == "orangeGuy")
@@ -228,11 +240,11 @@ namespace PAC_Man_Game_WPF_MOO_ICT
                     }
                 }
             }
-            // if the player collected 85 coins in the game
-            if (score == 85)
+            // if the player collected 292 coins in the game
+            if (score == 292)
             {
                 // show game over function with the you win message
-                GameOver("You Win, you collected all of the coins");
+                GameOver($"Это победа!!! Твой счет:{score}");
             }
         }
         private void GameOver(string message)
